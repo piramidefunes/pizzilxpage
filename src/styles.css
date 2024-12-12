@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image:url(assets/fppage.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.i80x45{
+  height: 45px;
+  width: 80px;
+}
+
+.autocenter{
+  width: auto;
+  margin: auto auto; 
+}
+
+.i25x25{
+  height: 25px;
+  width: 25px;
+}
+
+
+.i50x50{
+  height: 50px;
+  width: 50px;
+}
+
+.i250x450{
+  height: 350px;
+  width: 150px;
+}
+
+
+/**/
+@font-face {
+  font-family: "NewRocker";
+  /*src: url("assets/fonts/Philosopher-Regular.ttf");*/
+  src: url("assets/NewRocker-Regular.ttf");
+}
+/**/
+
+
+.fontgral {
+  font-family: NewRocker, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.fontsec {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+  }
